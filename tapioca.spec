@@ -74,7 +74,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(7554,root,root) %{_bindir}/*
+%attr(755,root,root) %{_bindir}/*
 %{_datadir}/dbus-1/services/org.tapioca.Server.service
  
 %files libs
