@@ -38,20 +38,20 @@ application.
     * Reduce the overhead of control layers and library dependencies.
 
 %package libs
-Summary:	Tapioca  library
-Group:		Graphical desktop/KDE
-Requires:	%name = %version-%release
+Summary:	Tapioca library
+Group:		Development/Libraries
+Requires:	%{name} = %{version}-%{release}
 
 %description libs
-Library for %name
+Library for tapioca
 
 %package libs-devel
-Summary:	Headers of %name for development
+Summary:	Headers for development
 Group:		Development/C
 Requires:	%{name}-libs = %{version}-%{release}
 
 %description libs-devel
-Headers of %{name} for development.
+Headers of tapioca for development.
 
 %prep
 %setup -q
