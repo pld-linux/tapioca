@@ -4,7 +4,7 @@ Name:		tapioca
 Version:	0.3.9
 Release:	1
 License:	GPL
-Group:		Networking/Instant messaging
+Group:		Networking
 Source0:	http://dl.sourceforge.net/tapioca-voip/%{name}-%{version}.tar.gz
 # Source0-md5:	e88c400394c092c2688bb2d490c80ccb
 URL:		http://tapioca-voip.sourceforge.net/wiki/index.php/Tapioca
