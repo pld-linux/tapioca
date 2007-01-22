@@ -4,15 +4,15 @@ Name:		tapioca
 Version:	0.3.9
 Release:	1
 License:	GPL
-URL:		http://tapioca-voip.sourceforge.net/wiki/index.php/Tapioca
 Group:		Networking/Instant messaging
 Source0:	http://dl.sourceforge.net/tapioca-voip/%{name}-%{version}.tar.gz
 # Source0-md5:	e88c400394c092c2688bb2d490c80ccb
-Buildrequires:  glib2-devel
-BuildRequires:  dbus-devel >= 0.36
-BuildRequires:  dbus-glib-devel >= 0.36
-BuildRequires:  pkgconfig
-Requires:       %{name}-libs = %{version}-%{release}
+URL:		http://tapioca-voip.sourceforge.net/wiki/index.php/Tapioca
+BuildRequires:	glib2-devel >= 2.0
+BuildRequires:	dbus-devel >= 0.36
+BuildRequires:	dbus-glib-devel >= 0.36
+BuildRequires:	pkgconfig
+Requires:	%{name}-libs = %{version}-%{release}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -57,6 +57,7 @@ Summary:	Tapioca library
 Summary(pl):	Biblioteka Tapioca
 Group:		Libraries
 Requires:	%{name} = %{version}-%{release}
+Requires:	dbus-glib >= 0.36
 
 %description libs
 Tapioca library.
@@ -69,6 +70,8 @@ Summary:	Headers for development using Tapioca framework
 Summary(pl):	Pliki nag³ówkowe szkieletu Tapioca
 Group:		Development/Libraries
 Requires:	%{name}-libs = %{version}-%{release}
+Requires:	glib2-devel >= 2.0
+Requires:	dbus-glib-devel >= 0.36
 
 %description libs-devel
 Headers of tapioca for development.
@@ -97,6 +100,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc AUTHORS ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/dbus-1/services/org.tapioca.Server.service
  
