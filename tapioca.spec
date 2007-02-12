@@ -1,5 +1,5 @@
 Summary:	A framework for Voice over IP (VoIP) and Instant Messaging (IM)
-Summary(pl):	Szkielet do VoIP (Voice over IP) i IM (Instant Messaging)
+Summary(pl.UTF-8):   Szkielet do VoIP (Voice over IP) i IM (Instant Messaging)
 Name:		tapioca
 Version:	0.3.9
 Release:	1
@@ -33,28 +33,28 @@ Tapioca's main goals are:
    application.
 - Reduce the overhead of control layers and library dependencies.
 
-%description -l pl
+%description -l pl.UTF-8
 Tapioca to szkielet do VoIP (Voice over IP) i IM (Instant Messaging,
-czyli komunikatorÛw). G≥Ûwnym jego celem jest zapewnienie ≥atwego
-sposobu tworzenia i uøywania us≥ug VoIP i IM w dowolnym rodzaju
-aplikacji. Zosta≥ zaprojektowany jako wieloplatformowy, lekki,
-bezpieczny dla w±tkÛw, a takøe z my∂l± o urz±dzeniach i aplikacjach
-przeno∂nych.
+czyli komunikator√≥w). G≈Ç√≥wnym jego celem jest zapewnienie ≈Çatwego
+sposobu tworzenia i u≈ºywania us≈Çug VoIP i IM w dowolnym rodzaju
+aplikacji. Zosta≈Ç zaprojektowany jako wieloplatformowy, lekki,
+bezpieczny dla wƒÖtk√≥w, a tak≈ºe z my≈õlƒÖ o urzƒÖdzeniach i aplikacjach
+przeno≈õnych.
 
-G≥Ûwne cele projektu Tapioca to:
- - stworzenie rozwi±zania integruj±cego wszystkie komponenty uøywane
-   przez aplikacje VoIP i IM w pojedynczym, pewnym i ≥atwym w uøyciu
-   szkielecie, nadaj±cym siÍ do wykorzystania na rÛønych platformach
- - oszczÍdno∂Ê zasobÛw poprzez udostÍpnienie centralnych us≥ug dla
-   wielu aplikacji; na przyk≥ad: sterowanie wszystkimi przychodz±cymi
-   i wychodz±cymi ø±daniami SIP jest obs≥ugiwane przez us≥ugÍ SIP, co
+G≈Ç√≥wne cele projektu Tapioca to:
+ - stworzenie rozwiƒÖzania integrujƒÖcego wszystkie komponenty u≈ºywane
+   przez aplikacje VoIP i IM w pojedynczym, pewnym i ≈Çatwym w u≈ºyciu
+   szkielecie, nadajƒÖcym siƒô do wykorzystania na r√≥≈ºnych platformach
+ - oszczƒôdno≈õƒá zasob√≥w poprzez udostƒôpnienie centralnych us≈Çug dla
+   wielu aplikacji; na przyk≈Çad: sterowanie wszystkimi przychodzƒÖcymi
+   i wychodzƒÖcymi ≈ºƒÖdaniami SIP jest obs≈Çugiwane przez us≈Çugƒô SIP, co
    zapobiega tworzeniu jednego stosu SIP i przydzielania portu
-   sieciowego dla kaødej aplikacji opartej na SIP
- - ograniczenie narzutu warstw steruj±cych i zaleøno∂ci bibliotek
+   sieciowego dla ka≈ºdej aplikacji opartej na SIP
+ - ograniczenie narzutu warstw sterujƒÖcych i zale≈ºno≈õci bibliotek
 
 %package libs
 Summary:	Tapioca library
-Summary(pl):	Biblioteka Tapioca
+Summary(pl.UTF-8):   Biblioteka Tapioca
 Group:		Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	dbus-glib >= 0.36
@@ -62,12 +62,12 @@ Requires:	dbus-glib >= 0.36
 %description libs
 Tapioca library.
 
-%description libs -l pl
+%description libs -l pl.UTF-8
 Biblioteka Tapioca.
 
 %package libs-devel
 Summary:	Headers for development using Tapioca framework
-Summary(pl):	Pliki nag≥Ûwkowe szkieletu Tapioca
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe szkieletu Tapioca
 Group:		Development/Libraries
 Requires:	%{name}-libs = %{version}-%{release}
 Requires:	glib2-devel >= 2.0
@@ -76,8 +76,8 @@ Requires:	dbus-glib-devel >= 0.36
 %description libs-devel
 Headers of tapioca for development.
 
-%description libs-devel -l pl
-Pliki nag≥Ûwkowe szkieletu Tapioca.
+%description libs-devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe szkieletu Tapioca.
 
 %prep
 %setup -q
