@@ -1,5 +1,5 @@
 Summary:	A framework for Voice over IP (VoIP) and Instant Messaging (IM)
-Summary(pl.UTF-8):   Szkielet do VoIP (Voice over IP) i IM (Instant Messaging)
+Summary(pl.UTF-8):	Szkielet do VoIP (Voice over IP) i IM (Instant Messaging)
 Name:		tapioca
 Version:	0.3.9
 Release:	1
@@ -54,7 +54,7 @@ Główne cele projektu Tapioca to:
 
 %package libs
 Summary:	Tapioca library
-Summary(pl.UTF-8):   Biblioteka Tapioca
+Summary(pl.UTF-8):	Biblioteka Tapioca
 Group:		Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	dbus-glib >= 0.36
@@ -67,7 +67,7 @@ Biblioteka Tapioca.
 
 %package libs-devel
 Summary:	Headers for development using Tapioca framework
-Summary(pl.UTF-8):   Pliki nagłówkowe szkieletu Tapioca
+Summary(pl.UTF-8):	Pliki nagłówkowe szkieletu Tapioca
 Group:		Development/Libraries
 Requires:	%{name}-libs = %{version}-%{release}
 Requires:	glib2-devel >= 2.0
